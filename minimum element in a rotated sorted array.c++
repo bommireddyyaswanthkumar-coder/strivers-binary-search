@@ -9,6 +9,7 @@ public:
                 ans=min(ans,nums[low]);
                 low=mid+1;
             }
+                
             else{
                 high=mid-1;
                 ans=min(ans,nums[mid]);
